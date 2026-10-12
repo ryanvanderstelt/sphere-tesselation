@@ -1,0 +1,6 @@
+Cool things I did but didn't want to put in the project header:
+    - Made the rotation and orbit accurate (orbit time, not orbit path).
+    - Put a point light inside the sun then inverted the sun's normal vectors to make it glow.
+    - Added the ability to choose a "starting time" so that the planets don't have to start in a line.
+    - Spheres with my homebrew tesselation method.
+    
