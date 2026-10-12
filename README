@@ -1,6 +1,3 @@
-Cool things I did but didn't want to put in the project header:
-    - Made the rotation and orbit accurate (orbit time, not orbit path).
-    - Put a point light inside the sun then inverted the sun's normal vectors to make it glow.
-    - Added the ability to choose a "starting time" so that the planets don't have to start in a line.
-    - Spheres with my homebrew tesselation method.
-    
+# sphere-tesselation
+
+Most of the files here are leftover from a class project I did for computer graphics. The non-assignment code is in sphere.h and sphere.cpp where I implement my own method of tesselating spheres. My method is an iteration of the UV method that reduces the number of triangles used as you approach the poles. I also included texture mapping to further differentiate from OpenGL's standard sphere.
